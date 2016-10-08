@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: waleno
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: gresodimedjo
+Implementation-Vendor-Id: co.waleno
+Build-Jdk: 1.8.0_91
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Waleno
+Main-Class: sr.qualogy.qforms.QformsApplication
+

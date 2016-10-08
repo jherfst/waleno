@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html class=" style-scrollbar">
+	<head>
+	    <base href="/"/>
+	    <meta name="WALENO B.V."/>
+	    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE"/>
+	    <meta http-equiv="CONTENT-LANGUAGE" content="en-US,nl-NL"/>
+	    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	    <link rel="stylesheet" href="../../app/dist/styles.min.css"/>
+	    <script type="text/javascript"  src="./bower_components/jquery/dist/jquery.min.js"></script>
+	    <script type="text/javascript"  src="./bower_components/jquery-ui/jquery-ui.min.js" ></script>
+	    <link rel="stylesheet" href="../../app/common/css/preload.css"/>
+	    <title>Waleno Membership App</title>
+	</head>
+
+	<body ng-app="walenoApp">
+	    <div class="preloader col-sm-9 col-lg-12">
+		  <span class="percentage" id="precent"></span>
+		  <div class="loader">
+		    <div class="trackbar">
+		      <div class="loadbar"></div>
+		    </div>
+		    <div class="glow"></div>
+		  </div>
+		</div>
+		
+		<toaster-container toaster-options="{'time-out': 3000, 'close-button':true, 'position-class': 'toast-top-center'}"></toaster-container>
+	  	<div ui-view=""></div>
+	  	
+	    <script   type="text/javascript"  src="./bower_components/angular/angular.min.js" ></script>
+	    <script src="https://www.google.com/recaptcha/api.js?render=explicit&amp;onload=vcRecaptchaApiLoaded&amp;hl=en" async="" defer="" class="ng-scope"></script>
+		  
+	    <!-- Toaster -->
+	    <!-- Formly -->
+	    <!-- Translate -->
+		<!-- Datagrid -->
+		<!-- Ng-Tag-input -->
+   		<!-- Ng-Currency -->
+		<!-- NG-file-upload -->
+		<!-- MOMENT -->
+		<!-- angular-busy -->
+		<!-- angular-block-ui -->
+		<!-- angular-stripe -->
+	    <script  type="text/javascript"  src="./app/dist/thirtparty.min.js" ></script>
+	
+	    <!-- angular-stripe -->
+	    <script type="text/javascript" src="https://js.stripe.com/v2/" async="true"></script>
+		
+		<!-- APPLICATION  -->   
+		<script   type="text/javascript"  src="./app/dist/app.min.js" ></script>
+
+	</body>
+</html>
