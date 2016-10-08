@@ -172,17 +172,6 @@
         	<artifactId>activemq-pool</artifactId>
         </dependency>
 
-        <!-- internal project dependencies -->
-        <dependency>
-            <groupId>sx.chamberofcommerce.shared</groupId>
-            <artifactId>sx-chamberofcommerce-shared-component</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.chamberofcommerce.shared</groupId>
-            <artifactId>com-chamberofcommerce-shared-oauth-client</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
         <dependency>
 	        <groupId>com.h2database</groupId>
 	        <artifactId>h2</artifactId>
