@@ -41,32 +41,7 @@ public class WebSecurityConfig {
 	
 		@Override
 		protected void configure(HttpSecurity http) throws Exception {
-		//	http
-			 	//.addFilterBefore(new CORSFilter(), ChannelProcessingFilter.class)
-				//.authorizeRequests();
-				//.antMatchers("/mail/*","/api/***/*").permitAll()
-				/*.antMatchers(
-						      "/",
-						     "/account/success",
-						     "/account/portal",
-							 "/account/user",
-							 "/account/home",
-							 "/account/requests",
-							 "/account/progress",
-							 "/app/usermanual/*").authenticated()
-					.antMatchers(HttpMethod.GET, "/requestor").hasRole("ADMIN")
-					.antMatchers(HttpMethod.DELETE, "/requestor/*").hasRole("ADMIN")
-					.antMatchers(HttpMethod.GET, "/requestor/*").hasAnyRole("ADMIN","USER")
-					.antMatchers(HttpMethod.PUT, "/requestor/*").hasAnyRole("ADMIN","USER")
-					.and().headers().frameOptions().sameOrigin()*/
-				/*.and()
-					.csrf().csrfTokenRepository(csrfTokenRepository())
-				.and()
-					.addFilterAfter(csrfHeaderFilter(), CsrfFilter.class);
-				.logout()
-						.logoutUrl("/account/logout").permitAll()
-						.logoutSuccessUrl("/account/login")
-						.logoutRequestMatcher(new AntPathRequestMatcher("/account/logout"));*/
+		
 		}
 		
         protected static class CORSFilter implements Filter {
