@@ -1,15 +1,6 @@
 <header id="topnav" class="navbar navbar-default navbar-fixed-top" role="banner">
 	<div class="logo-area">
-		<span id="trigger-sidebar" class="toolbar-trigger toolbar-icon-bg">
-			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
-				<span class="icon-bg">
-					<i class="ti ti-menu"></i>
-				</span>
-			</a>
-		</span>
-		
 		<a class="navbar-brand" href="index.html"></a>
-
 		<div class="toolbar-icon-bg hidden-xs" id="toolbar-search">
             <div class="input-group">
             	<span class="input-group-btn"><button class="btn" type="button"><i class="ti ti-search"></i></button></span>
@@ -20,11 +11,9 @@
 	</div><!-- logo-area -->
 
 	<ul class="nav navbar-nav toolbar pull-right">
-
 		<li class="toolbar-icon-bg visible-xs-block" id="trigger-toolbar-search">
 			<a href="#"><span class="icon-bg"><i class="ti ti-search"></i></span></a>
 		</li>
-        
 		<li class="toolbar-icon-bg hidden-xs">
             <a href="#"><span class="icon-bg"><i class="ti ti-world"></i></span></i></a>
         </li>
@@ -220,5 +209,29 @@
 		</li>
 	</ul>
 </header>
+ <nav class="navbar navbar-inverse navbar-orange" role="navigation" id="headernav">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#horizontal-navbar">
+            <i class="ti ti-menu"></i>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse large-icons-nav" id="horizontal-navbar">
+        <ul class="nav navbar-nav smart-menu">
+            <li class="active"><a href="index.html"><i class="ti ti-home"></i> <span>Dashboard</span></a></li>
+            <li><a href="index.html"><i class="ti ti-user"></i> <span>Members</span></a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle"><i class="ti ti-settings"></i> 
+               	 <span>Settings <i class="fa fa-angle-down"></i></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Finance</a></li>
+                    <li><a href="#">Newsfeed</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
 <div ui-view>
 </div>

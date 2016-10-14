@@ -7,7 +7,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>waleno</name>
-  <description>membership app</description>
+  <description>Membership App</description>
   
   <parent>
 	  <groupId>org.springframework.cloud</groupId>
@@ -243,7 +243,4 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-	
 </project>
-
-
